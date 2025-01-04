@@ -1,9 +1,9 @@
 import React, {useRef} from 'react';
 
-type NewTodoPropsm= {
+type NewTodoProps = {
     addNewTodo: (todoText: string) => void;
 }
-const NewTodo:  React.FC<NewTodoPropsm> = ({addNewTodo}) =>  {
+const NewTodo:  React.FC<NewTodoProps> = ({addNewTodo}) =>  {
     const textInputRef = useRef<HTMLInputElement>(null);
 
     const handleSubmit = (event: React.FormEvent) => {
