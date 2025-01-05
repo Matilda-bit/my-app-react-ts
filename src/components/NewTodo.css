@@ -1,0 +1,41 @@
+.todo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px auto;
+    color: white;
+    text-decoration: underline;
+}
+
+input {
+    height: 2rem;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    min-width: 270px;
+}
+
+input:hover {
+    border-color: blueviolet;
+}
+
+.add-btn {
+   border: 1px solid white;
+   border-radius: 5px;
+   height: 2rem;
+   background-color:#0f7878;
+   font-weight: bold;
+   color: white;
+}
+
+.add-btn:hover {
+    border-color:  gold;
+}
+
+form {
+    justify-items: center;
+}

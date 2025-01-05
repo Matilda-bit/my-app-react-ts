@@ -1,4 +1,5 @@
 import React from 'react';
+import './TodoList.css';
 
 
 interface TodoListProps {
@@ -12,7 +13,7 @@ const TodoList: React.FC<TodoListProps> = ({todos, deleteTodo}) => {
         {todos.map(todo => (
         <li key={todo.id}>
             <span>{todo.text}</span>
-            <button onClick={deleteTodo.bind(null,todo.id)}>Delete</button>
+            <button className='delete-btn' onClick={deleteTodo.bind(null,todo.id)}>DELETE</button>
         </li>
         ))}
 

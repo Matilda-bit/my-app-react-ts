@@ -1,0 +1,25 @@
+li {
+    margin: 10px auto;
+    color: #064d4d;
+}
+
+li button {
+    display: flex;
+    flex-direction: end;
+    margin-top: 10px;
+}
+
+.delete-btn {
+    border: 1px solid #e78e5f;
+    border-radius: 5px;
+    height: 2rem;
+    background-color:#c73535;
+    font-weight: bold;
+    align-items: center;
+    color: white;
+}
+
+.delete-btn:hover {
+    color:#c73535;
+    background-color: white;
+}
