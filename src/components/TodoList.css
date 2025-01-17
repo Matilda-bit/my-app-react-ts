@@ -1,25 +1,38 @@
-li {
-    margin: 10px auto;
-    color: #064d4d;
-}
-
-li button {
-    display: flex;
-    flex-direction: end;
-    margin-top: 10px;
-}
 
 .delete-btn {
     border: 1px solid #e78e5f;
     border-radius: 5px;
-    height: 2rem;
     background-color:#c73535;
     font-weight: bold;
-    align-items: center;
     color: white;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
 }
 
 .delete-btn:hover {
-    color:#c73535;
-    background-color: white;
+    background-color: #e78e5f;
+    border: 1px solid #c73535;
+
 }
+
+
+ul {
+    list-style: none;
+    width: 90%;
+    max-width: 40rem;
+    margin: 2rem auto;
+    padding: 0;
+   
+  }
+  
+  li {
+    margin: 1rem 0;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+  
